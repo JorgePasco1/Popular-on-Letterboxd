@@ -1,0 +1,33 @@
+{
+  "name": "01-popular-on-letterboxd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgePasco1/Popular-on-Letterboxd.git"
+  },
+  "author": "Jorge Pasco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JorgePasco1/Popular-on-Letterboxd/issues"
+  },
+  "homepage": "https://github.com/JorgePasco1/Popular-on-Letterboxd#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {}
+}
