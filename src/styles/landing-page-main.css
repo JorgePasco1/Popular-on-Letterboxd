@@ -1,0 +1,15 @@
+main {
+  height: 25rem;
+  background-color: #E28413;
+  padding: 2% 4% 0 4%;
+}
+
+.custom-card-tabs {
+  background-color: #000A1C;
+}
+
+.custom-card-title {
+  font-family: 'Calistoga', cursive;
+  /* Removing Materialize transform: Uppercase */
+  text-transform: none;
+}

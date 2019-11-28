@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Popular on Letterboxd</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Calistoga&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-title">
+        <div class="h-title-left">
+          Popular on
+        </div>
+        <div class="h-title-right">
+          <!-- Using object as recommended here https://www.sitepoint.com/add-svg-to-web-page/ I'm not sure if that's right, though.-->
+          <object type="image/svg+xml" data="./assets/Letterboxd-logo.svg">
+            Your browser does not support SVG
+          </object>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="card">
+        <div class="card-tabs ">
+          <ul class="tabs tabs-fixed-width">
+            <li class="tab custom-card-tabs"><a class="white-text custom-card-title active" href="#test4">What is PoL?</a></li>
+            <li class="tab custom-card-tabs"><a class="white-text custom-card-title" href="#test5">Why I built it?</a></li>
+            <li class="tab custom-card-tabs"><a class="white-text custom-card-title" href="#test6">How to use it?</a></li>
+          </ul>
+        </div>
+          <div class="card-content grey lighten-4">
+            <div id="test4">Test 1</div>
+            <div id="test5">Test 2</div>
+            <div id="test6">Test 3</div>
+          </div>
+        </div>
+    </main>
+  </body>
+</html>

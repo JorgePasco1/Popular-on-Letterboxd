@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 17rem;
+  background-color: #000A1C;
+}
+
+.header-title {
+  width: 80%;
+  height: 55%;
+  display: flex;
+}
+
+.h-title-left {
+  width: 42%;
+  font-family: 'Calistoga', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+  font-size: 5rem;
+  color: white;
+}
+
+.h-title-right {
+  width: 58%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: -2%
+}
