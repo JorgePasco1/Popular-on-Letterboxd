@@ -1,15 +1,85 @@
 main {
-  height: 25rem;
-  background-color: #E28413;
-  padding: 2% 4% 0 4%;
+  min-height: 20rem;
+  background-color: var(--light-orange);
+  padding: 2% 10% 0 10%;
 }
 
 .custom-card-tabs {
-  background-color: #000A1C;
+  background-color: var(--dark-blue);
 }
 
 .custom-card-title {
   font-family: 'Calistoga', cursive;
-  /* Removing Materialize transform: Uppercase */
-  text-transform: none;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background-color: rgba(255,255,255,0.05);
+}
+
+.custom-text {
+  font-family: 'Calistoga', cursive;
+  font-size: large;
+  text-align: center;
+}
+
+.custom-card-content {
+  background-color:#FBEDDC;
+}
+
+.custom-button {
+  background-color:var(--dark-green);
+  font-family: 'Calistoga', cursive;
+  text-align: center
+}
+
+
+.custom-button:hover {
+  background-color: var(--dark-green);
+}
+
+.button-container {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+#custom-collapsible {
+  display:none;
+  border: none;
+}
+
+.custom-coll-header {
+  background-color: var(--dark-blue);
+  color: rgb(212, 212, 212);
+  font-family: 'Calistoga', cursive;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  border-top: none;
+}
+
+.keyboard-focused .collapsible-header:focus {
+  background-color: var(--dark-blue);
+}
+
+.custom-coll-body {
+  background-color: rgb(255, 244, 233);
+  font-family: 'Calistoga', cursive;
+  font-size: medium;
+  text-align: justify;
+  border: none;
+}
+
+.bottom-card {
+  border-bottom: none;
+}
+
+@media (orientation: portrait) {
+  #custom-card {
+    display: none;
+  }
+
+  #custom-collapsible {
+    display: block;
+  }
 }

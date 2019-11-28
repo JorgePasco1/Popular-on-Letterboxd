@@ -1,0 +1,23 @@
+footer {
+  height: 5rem;
+  background-color: var(--light-orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+}
+
+footer > a > img {
+  height: 40px;
+}
+
+#website {
+  font-family: 'Calistoga', cursive;
+  color: #151013;
+  font-size: 1.9rem;
+  margin-left: 1%;
+  margin-top: -0.3rem;
+}

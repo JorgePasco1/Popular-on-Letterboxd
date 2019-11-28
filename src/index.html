@@ -16,28 +16,60 @@
         </div>
         <div class="h-title-right">
           <!-- Using object as recommended here https://www.sitepoint.com/add-svg-to-web-page/ I'm not sure if that's right, though.-->
-          <object type="image/svg+xml" data="./assets/Letterboxd-logo.svg">
+          <object type="image/svg+xml" data="./assets/Letterboxd-logo.svg" id="letterboxd-logo">
             Your browser does not support SVG
           </object>
         </div>
       </div>
     </header>
-
+    
     <main>
-      <div class="card">
-        <div class="card-tabs ">
-          <ul class="tabs tabs-fixed-width">
-            <li class="tab custom-card-tabs"><a class="white-text custom-card-title active" href="#test4">What is PoL?</a></li>
-            <li class="tab custom-card-tabs"><a class="white-text custom-card-title" href="#test5">Why I built it?</a></li>
+      <div class="card" id="custom-card">
+        <div class="card-tabs">
+          <ul class="tabs tabs-fixed-width tabs-transparent">
+            <li class="tab custom-card-tabs"><a class="white-text custom-card-title" href="#test4">Why I built it?</a></li>
+            <li class="tab custom-card-tabs"><a class="white-text custom-card-title active" href="#test5">What is PoL?</a></li>
             <li class="tab custom-card-tabs"><a class="white-text custom-card-title" href="#test6">How to use it?</a></li>
           </ul>
         </div>
-          <div class="card-content grey lighten-4">
-            <div id="test4">Test 1</div>
-            <div id="test5">Test 2</div>
-            <div id="test6">Test 3</div>
-          </div>
+        <div class="card-content custom-card-content">
+          <div class="custom-text" id="test4">I'm a film enthusiast and a regular Letterboxd user, and also a starting Web Developer. I want to combine my two passions and create a functional and good-loking app.</div>
+          <div class="custom-text" id="test5">Popular on Letterboxd is a website where you can find the most viewed and liked films/film lists from the movie-enthusiast community of Letterboxd.com.</div>
+          <div class="custom-text" id="test6">In the app, you will be able to select if you want to see the weekly or all-time most popular films/film lists from Letterboxd. Also, you can filter films by genre, and you can search for specific keywords when you're browsing the lists</div>
         </div>
+      </div>
+
+      <ul class = "collapsible" data-collapsible = "accordion" id="custom-collapsible">
+        <li class="active">
+          <div class = "collapsible-header custom-coll-header">
+            What is PoL?
+          </div>
+          <div class = "collapsible-body custom-coll-body"><p>Popular on Letterboxd is a website where you can find the most viewed and liked films/film lists from the movie-enthusiast community of Letterboxd.com.</p></div>
+        </li>
+        
+        <li>
+          <div class = "collapsible-header custom-coll-header">
+            Why I built it?
+          </div>
+          <div class = "collapsible-body custom-coll-body"><p>I'm a film enthusiast and a regular Letterboxd user, and also a starting Web Developer. I want to combine my two passions and create a functional and good-loking app.</p></div>
+        </li>
+        
+        <li>
+          <div class = "collapsible-header custom-coll-header bottom-card">
+            How to use it
+          </div>
+          <div class = "collapsible-body custom-coll-body"><p>In the app, you will be able to select if you want to see the weekly or all-time most popular films/film lists from Letterboxd. Also, you can filter films by genre, and you can search for specific keywords when you're browsing the lists</p></div>
+        </li>
+      </ul>
+
+      <div class="button-container">
+          <a class="waves-effect waves-light btn custom-button">Go to the app!</a>
+      </div>
     </main>
+
+    <footer>
+        <a href="https://github.com/JorgePasco1" target="blank"><img src="./assets/GitHub_Logo.png" alt="github-link"></a>
+        <a href="https://www.jorgepasco.me" id="website" target="blank">Website</a>
+    </footer>
   </body>
 </html>

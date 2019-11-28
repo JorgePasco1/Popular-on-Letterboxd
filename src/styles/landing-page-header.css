@@ -1,6 +1,7 @@
-body {
+  body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -8,7 +9,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 17rem;
-  background-color: #000A1C;
+  background-color: var(--dark-blue);
 }
 
 .header-title {
@@ -23,8 +24,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 0.5rem;
-  font-size: 5rem;
+  font-size: 5em;
   color: white;
 }
 
@@ -34,4 +34,77 @@ header {
   align-items: center;
   justify-content: flex-start;
   margin-left: -2%
+}
+
+
+@media (min-width: 891px) and (max-width: 1110px) and (orientation: landscape) {
+  .h-title-left {
+    font-size: 4em;
+  }
+
+  #letterboxd-logo {
+    width: 440px;
+    height: 100px;
+  }  
+}
+
+@media (min-width: 791px) and (max-width: 890px) and (orientation: landscape) {
+  .h-title-left {
+    font-size: 3rem;
+  }
+
+  .h-title-left {
+    margin-right: -20px;
+  }
+
+  #letterboxd-logo {
+    width: 400px;
+    height: 70px;
+  } 
+}
+
+@media (min-width: 717px) and (max-width: 790px) and (orientation: landscape){
+  .h-title-left {
+    font-size: 3rem;
+    margin-right: -20px;
+  }
+
+  #letterboxd-logo {
+    width: 400px;
+    height: 70px;
+  } 
+}
+
+@media (max-width: 716px) {
+  .h-title-left {
+    font-size: 2.5rem;
+    margin-right: -20px;
+  }
+
+  #letterboxd-logo {
+    width: 370px;
+    height: 60px;
+  } 
+}
+
+@media (orientation: portrait) {
+  .header-title {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .h-title-left {
+    font-size: 2.5rem;
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .h-title-right {
+    margin-left: 10px;
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+  }
 }
