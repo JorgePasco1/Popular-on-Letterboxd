@@ -1,15 +1,15 @@
-  body {
+body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 header {
+  height: 17rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 17rem;
-  background-color: var(--dark-blue);
+  background: url(../assets/background.png);
+  background-size: cover;
 }
 
 .header-title {
@@ -88,6 +88,11 @@ header {
 }
 
 @media (orientation: portrait) {
+  header {
+    height: 13rem;
+    background-size: auto 100%;
+  }
+
   .header-title {
     flex-direction: column;
     justify-content: center;
@@ -106,5 +111,11 @@ header {
     font-size: 2.5rem;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-height: 37rem) {
+  body{
+    overflow-y: hidden;
   }
 }

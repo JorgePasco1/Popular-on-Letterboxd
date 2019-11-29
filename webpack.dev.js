@@ -8,7 +8,7 @@ module.exports = merge(common, {
     contentBase: path.join(__dirname, 'src'),
   },
   output: {
-    filename: "main.js",
+    filename: "[name].js",
     path: path.resolve(__dirname, "dist")
   },
 });
