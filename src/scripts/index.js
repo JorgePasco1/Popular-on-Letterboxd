@@ -5,5 +5,10 @@ import "../styles/landing-page-header.css";
 import "../styles/landing-page-main.css";
 import "../styles/landing-page-footer.css";
 
-M.AutoInit();
+document.addEventListener('DOMContentLoaded', function() {
+  const tabs = document.querySelectorAll('.tabs');
+  const tabInstances = M.Tabs.init(tabs);
+  var collapsible = document.querySelectorAll('.collapsible');
+  var collapsibleInstances = M.Collapsible.init(collapsible);
+});
 

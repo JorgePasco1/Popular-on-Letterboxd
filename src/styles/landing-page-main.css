@@ -28,6 +28,7 @@ main {
 }
 
 .custom-button {
+  margin-top: 1rem;
   background-color:var(--dark-green);
   font-family: 'Calistoga', cursive;
   text-align: center

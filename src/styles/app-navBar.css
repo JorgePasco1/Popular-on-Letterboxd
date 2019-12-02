@@ -1,0 +1,44 @@
+.navBar {
+  width: 100%;
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0 0.75rem 0;
+}
+
+.nav-text {
+  font-family: 'Calistoga', cursive;
+  font-size: xx-large;
+  color: var(--dark-grey);
+  margin: 0 2% 0 4%;
+}
+
+.navBar > .active {
+  color: var(--light-grey)
+}
+
+.navBar > a {
+  transition: color 100ms linear;
+}
+
+.navBar > a:hover {
+  color: var(--light-grey)
+}
+
+.navBar > .nav-logo {
+  margin-left: auto;
+  margin-right: 4%;
+  font-size: 2.8rem;
+}
+
+.logo-green {
+  color: var(--light-green)
+}
+
+.logo-orange {
+  color: var(--light-orange)
+}
+
+.logo-blue {
+  color: var(--light-blue)
+}
