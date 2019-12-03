@@ -6,6 +6,8 @@ body {
 header {
   height: 17rem;
   display: flex;
+  position: relative;
+  box-shadow:0 1px 6px rgba(0,0,0,0.8);
   align-items: center;
   justify-content: center;
   background: url(../assets/background.png);

@@ -7,8 +7,21 @@ module.exports = merge(common, {
   devServer: {
     contentBase: path.join(__dirname, 'src'),
   },
+
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
+      }
+    ]
+  },
+
   output: {
     filename: "[name].js",
     path: path.resolve(__dirname, "dist")
-  },
+  }
 });

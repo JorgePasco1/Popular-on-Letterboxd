@@ -1,0 +1,57 @@
+main {
+  background-color: var(--light-grey);
+  padding: 0 4rem 0 4rem;
+}
+
+.section-header {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-family: 'Calistoga', cursive;
+  font-size: 2.5rem;
+  text-shadow:1px 0px 4px rgba(0,0,0,0.1);
+}
+
+.sorting > a {
+  margin-right: 5px;
+  padding: 0 5px 0 10px;
+}
+
+.sorting > a > i.right {
+  margin-left: 0px;
+}
+
+.sorting > .btn {
+  font-family: 'Calistoga', cursive;
+  text-transform: none;
+  color: rgba(24, 24, 24, 0.883);
+}
+
+.green-button {
+  background-color: var(--light-green);
+}
+
+.green-button:hover {
+  background-color: var(--lighter-green);
+}
+
+.green-button:focus {
+  background-color: var(--medium-green);
+}
+
+.orange-button {
+  background-color: var(--light-orange);
+}
+
+.orange-button:hover {
+  background-color: var(--lighter-orange);
+}
+
+.orange-button:focus {
+  background-color: var(--medium-orange);
+}
+

@@ -1,0 +1,40 @@
+.film-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.film-cards > .card > .card-image > img {
+  width: 19rem;
+}
+
+.film-cards > .card > .card-content {
+  background-color: var(--dark-blue);
+  padding: 1rem;
+}
+
+.film-cards > .card > .card-content > .card-title {
+  font-family: 'Calistoga', cursive;
+  font-size: x-large;
+  color: white;
+  margin-bottom: 0;
+}
+
+.film-cards > .card > .card-content > .card-title > i {
+  margin-left: 0;
+}
+
+.film-cards > .card > .card-content > p > a {
+  font-family: 'Calistoga', cursive;
+  color: var(--medium-green)
+}
+
+.film-cards > .card > .card-reveal {
+  background-color: rgba(255, 255, 255, 0.90);
+  font-family: 'Calistoga', cursive;
+}
+
+.film-director {
+  font-size: large;
+  color: var(--dark-green)
+}

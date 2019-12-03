@@ -1,10 +1,13 @@
 :root {
   --dark-blue: #000A1C;
-  --light-orange: #E28413;
+  --light-orange: rgb(241, 137, 9);
+  --lighter-orange: rgb(255, 157, 38);
+  --medium-orange: rgb(197, 113, 10);
   --dark-green: #005414;
   --light-green: #01D852;
+  --lighter-green: rgb(36, 255, 120);
   --medium-green: #03973A;
-  --light-blue: #40BCF4;
-  --light-grey: rgb(223, 225, 226);
+  --light-blue: #00ADFB;
+  --light-grey: #ECEFF1;
   --dark-grey: #80858E;
 }

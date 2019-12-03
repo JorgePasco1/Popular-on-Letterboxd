@@ -11,6 +11,8 @@ main {
 
 .custom-card-title {
   font-family: 'Calistoga', cursive;
+  text-transform: none;
+  letter-spacing: .05rem;
 }
 
 .tabs .tab a:focus, .tabs .tab a:focus.active {

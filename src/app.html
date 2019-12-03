@@ -5,19 +5,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Popular on Letterboxd</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="navBar">
       <a class="nav-text active" href="#">Films</a>
       <a class="nav-text" href="#">Lists</a>
       <a class="nav-text nav-logo" href="./index.html">
-        <span class="logo-green">P</span><span class="logo-orange">o</span><span class="logo-blue">L</span>
+        <span class="logo-green">P</span><span class="logo-orange">o</span
+        ><span class="logo-blue">L</span>
       </a>
     </div>
 
     <main>
+      <div class="section-header">
+        <div class="header-title">
+          <span class="logo-blue">Most </span
+          ><span class="logo-green">Popular </span>
+          <span class="logo-orange">Films</span>
+        </div>
+        <div class="sorting">
+          <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">All Genres</a></li>
+            <li><a href="#!">Horror</a></li>
+            <li><a href="#!">Comedy</a></li>
+            <li><a href="#!">Action</a></li>
+          </ul>
+          <a
+            class="btn dropdown-trigger green-button"
+            href="#!"
+            data-target="dropdown1"
+            >All genres<i class="material-icons right custom-icon"
+              >arrow_drop_down</i
+            ></a
+          >
+
+          <ul id="dropdown2" class="dropdown-content">
+            <li><a href="#!">Weekly</a></li>
+            <li><a href="#!">All-time</a></li>
+          </ul>
+          <a
+            class="btn dropdown-trigger orange-button"
+            href="#!"
+            data-target="dropdown2"
+            >Weekly<i class="material-icons right">arrow_drop_down</i></a
+          >
+        </div>
+      </div>
+
+      <div class="film-cards">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/ford_poster.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"
+              >Ford v Ferrari<i class="material-icons right">more_vert</i></span
+            >
+            <p><a href="#">James Mangold</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title"
+              >Ford v Ferrari<i class="material-icons right">close</i></span
+            >
+            <span class="film-director">James Mangold</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, labore deleniti eveniet asperiores enim sapiente. Necessitatibus unde impedit odio, dignissimos ratione veritatis corrupti eum mollitia illum minima, aliquam pariatur soluta.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/ford_poster.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"
+              >Ford v Ferrari<i class="material-icons right">more_vert</i></span
+            >
+            <p><a href="#">James Mangold</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"
+              >Card Title<i class="material-icons right">close</i></span
+            >
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/ford_poster.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"
+              >Ford v Ferrari<i class="material-icons right">more_vert</i></span
+            >
+            <p><a href="#">James Mangold</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"
+              >Card Title<i class="material-icons right">close</i></span
+            >
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/ford_poster.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"
+              >Ford v Ferrari<i class="material-icons right">more_vert</i></span
+            >
+            <p><a href="#">James Mangold</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"
+              >Card Title<i class="material-icons right">close</i></span
+            >
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/ford_poster.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"
+              >Ford v Ferrari<i class="material-icons right">more_vert</i></span
+            >
+            <p><a href="#">James Mangold</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"
+              >Card Title<i class="material-icons right">close</i></span
+            >
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/ford_poster.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"
+              >Ford v Ferrari<i class="material-icons right">more_vert</i></span
+            >
+            <p><a href="#">James Mangold</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"
+              >Card Title<i class="material-icons right">close</i></span
+            >
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/ford_poster.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"
+              >Ford v Ferrari<i class="material-icons right">more_vert</i></span
+            >
+            <p><a href="#">James Mangold</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"
+              >Card Title<i class="material-icons right">close</i></span
+            >
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/ford_poster.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"
+              >Ford v Ferrari<i class="material-icons right">more_vert</i></span
+            >
+            <p><a href="#">James Mangold</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"
+              >Card Title<i class="material-icons right">close</i></span
+            >
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="pagination-container">
+        <ul class="pagination">
+          <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+          <li class="active custom-numbers"><a href="#!">1</a></li>
+          <li class="waves-effect custom-numbers"><a href="#!">2</a></li>
+          <li class="waves-effect custom-numbers"><a href="#!">3</a></li>
+          <li class="waves-effect custom-numbers"><a href="#!">4</a></li>
+          <li class="waves-effect custom-numbers"><a href="#!">5</a></li>
+          <li class="waves-effect custom-numbers"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+      </div>
     </main>
-
-
   </body>
 </html>

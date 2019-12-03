@@ -1,0 +1,13 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-container > .pagination > .custom-numbers > a{
+  font-family: 'Calistoga', cursive;
+  color: rgb(29, 29, 29);
+}
+
+.pagination-container > .pagination > .active {
+  background-color: var(--light-green);
+}
